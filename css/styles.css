@@ -1,0 +1,237 @@
+
+/* refactoring code is due */
+
+
+
+body{
+   font-family:"Montserrat"; 
+}
+
+
+h1,h2,h3,h4,h5,h6{
+   font-weight: bold;
+}
+
+
+/* Heading */
+.big-heading{
+   font-size: 3.5rem;
+   line-height: 1.5;
+   font-weight: 900;
+   color:white;
+}
+
+
+  p{
+    color:#8f8f8f;
+  }
+
+  .price-text{
+   font-size: 3rem; 
+   line-height: 1.5;
+  }
+
+
+
+
+
+
+#title{
+    background-color: #ff4c68;
+   
+   
+}
+
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+
+
+
+
+
+ /* navbar */
+
+
+ .navbar{
+    padding-bottom: 4.5rem;
+ }  
+ .navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+    font-weight:bold;
+ }
+
+ .nav-item{
+    padding:0 18px; 
+ }
+ .nav-link{
+    font-family:"Montserrat-Light   "; 
+    font-size:1.2rem;
+ }
+
+
+ 
+ 
+
+ /* download buttons */
+
+ .download-button{
+    margin:5% 3% 5% 0%;
+ }
+
+
+ /* title image */
+
+ .title-image{
+    height:80%;
+    width:20%;
+    transform:rotate(25deg); 
+    position: absolute;
+    left:55%;
+ }
+
+
+
+ /*  features section  */
+
+
+#features{
+   padding:7% 15%;
+   background-color: white;
+   position:relative;
+   z-index:1;
+}
+
+.features-box{
+   text-align: center;
+   padding: 5%;
+}
+
+.features-icon{
+
+   color:#ef8172;
+   margin-bottom:1rem;
+
+}
+
+
+.features-icon:hover{
+
+   color:#ff4c68;
+
+}
+
+
+
+/* testimonial section     */
+
+
+
+#testimonials{
+  
+   text-align: center;
+   background-color:#ef8172;
+   color:white;
+   
+}
+
+.testimonial-text{
+
+   font-size:3rem;
+   line-height: 1.5;
+}
+
+.carousel-item{
+
+   padding:7% 15%;
+}
+
+.testimonial-image{
+
+   width:10%;  
+   border-radius: 100%;
+   margin: 20px;  
+}
+
+
+#press{
+   background-color: #ef8172;
+   text-align: center;
+   padding-bottom: 3%;
+}
+
+.press-logo{
+
+   width: 15%;
+   margin:20px 20px 50px;
+}
+
+
+
+
+/* pricing section */
+
+#pricing{
+   padding:100px;
+   text-align: center;
+}
+
+.pricing-col{
+
+   padding:3% 2%;
+}
+
+
+/* cta section */
+
+
+
+#cta{
+
+   background-color: #ff4c68;
+   text-align:center;
+   padding-top: 10%;
+}
+
+/* Footer */
+#footer{
+
+   padding-top: 10%;
+   background-color: white;
+   text-align:center;
+}
+
+.icon{
+   
+   padding-bottom:5%;
+   padding-left:1%;
+}
+
+
+
+
+
+
+
+@media(max-width:992px){
+
+   .title-image{
+      
+      transform:rotate(0deg); 
+      position:static;
+      height:100%;
+      width: 75%;
+   }
+
+   #title{
+      text-align: center;
+   }
+}
+
+
+
+

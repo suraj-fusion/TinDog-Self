@@ -1,2 +1,1 @@
-# TinDog-Self
-Tindog WebPage made during Angela Yu web dev bootcamp 2023
+TinDog- Frontend website made in angela yu course 2023
