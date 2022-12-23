@@ -1,1 +1,1 @@
-TinDog- Frontend website made in angela yu course 2023
+TinDog- Frontend website made during Angela Yu Bootcamp 2023
